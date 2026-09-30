@@ -1,0 +1,1 @@
+console.log("Digital Wardrobe application started.");
