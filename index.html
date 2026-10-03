@@ -8,8 +8,49 @@
 </head>
 
 <body>
-    <h1>Digital Wardrobe</h1>
+    <main class="app">
+        <aside class="wardrobe-panel">
+            <h1 class="app-title">Digital Wardrobe</h1>
+
+            <nav class="category-tabs" aria-label="Wardrobe categories">
+                <button class="category-tab active" type="button">Tops</button>
+                <button class="category-tab" type="button">Bottoms</button>
+                <button class="category-tab" type="button">Shoes</button>
+                <button class="category-tab" type="button">Accessories</button>
+            </nav>
+
+            <section class="wardrobe-items" aria-label="Tops">
+                <button class="wardrobe-card" type="button">
+                    <div class="item-thumbnail"></div>
+                    <span class="item-name">White T-shirt</span>
+                </button>
+
+                <button class="wardrobe-card" type="button">
+                    <div class="item-thumbnail"></div>
+                    <span class="item-name">Black T-shirt</span>
+                </button>
+
+                <button class="wardrobe-card" type="button">
+                    <div class="item-thumbnail"></div>
+                    <span class="item-name">Navy T-shirt</span>
+                </button>
+            </section>
+
+            <button class="reset-outfit-button" type="button">
+                Reset Outfit
+            </button>
+        </aside>
+
+        <section class="viewer">
+            <div class="viewer-placeholder">
+                3D Viewer
+            </div>
+
+            <button class="reset-camera-button" type="button">
+                Reset Camera
+            </button>
+        </section>
+    </main>
 
     <script type="module" src="js/main.js"></script>
 </body>
-</html>
